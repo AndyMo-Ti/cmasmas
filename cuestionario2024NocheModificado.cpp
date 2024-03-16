@@ -784,15 +784,15 @@ main()
 					    }
 			break;
 			case 6:
-					cout<<"PROGRAMAR SENTENCIAS SQL. "<<endl; 
-					cout<<"1-¿Cuáles son los pilares de la programación orientada a objetos?"<<endl;
-					cout<<"a)abstracción, encapsulamiento, polimorfismo y herencia."<<endl;
-					cout<<"b)herencia, clases, subclase, encapsulamiento "<<endl;
-					cout<<"c)polimorfismo, herencia"<<endl;
-					cout<<"d)datos, funcionalidades, polimorfismo"<<endl;
+					cout<<"PROGRAMAR SENTENCIAS SQL."<<endl; 
+					cout<<"1-¿Qué es SQL? "<<endl;
+					cout<<"a)Es un lenguaje de programación."<<endl;
+					cout<<"b)Es un lenguaje de consultas estructuradas."<<endl;
+					cout<<"c)Es un lenguaje de diseño gráfico."<<endl;
+					cout<<"d)Es un compilador."<<endl;
 					cin>>respuesta;
 
-				    if(respuesta=='a')
+				    if(respuesta=='b')
 						{
 					  		cout<<"la respuesta es correcta"<<endl;
 					  		contap=contap+1;
@@ -802,14 +802,14 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}	 
-					cout<<"2-¿Qué significado en (poo) paradigma?"<<endl;
-					cout<<"a)Código de programación con una estructura específica"<<endl;
-					cout<<"b)Base de datos del usuario"<<endl;
-					cout<<"c)Estilo diferente de programar del programador"<<endl;
-					cout<<"d)Restricción de datos al usuario"<<endl;
+					cout<<"2-¿Qué significa SQL?"<<endl;
+					cout<<"a)Structured Query Link."<<endl;
+					cout<<"b)Standard Query Language."<<endl;
+					cout<<"c)Systematic Query Locator."<<endl;
+					cout<<"d)System Query Language."<<endl;
 					cin>>respuesta;
 
-				    if(respuesta=='c')
+				    if(respuesta=='b')
 						{
 					  		cout<<"la respuesta es correcta"<<endl;
 					  		contap=contap+1;
@@ -819,11 +819,11 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}	
-					cout<<"3-¿Que es una superclase en (poo)?"<<endl;
-					cout<<"a)Dependencia del programa"<<endl;
-					cout<<"b)Creación de nuevas clases"<<endl;
-					cout<<"c)En donde se insertan los datos de los usuarios"<<endl;
-					cout<<"d)La clase cuyas características se heredan"<<endl;
+					cout<<"3-¿Cuál es el comando básico para seleccionar datos de una tabla en SQL?"<<endl;
+					cout<<"a)SHOW."<<endl;
+					cout<<"b)INSERT."<<endl;
+					cout<<"c)FETCH."<<endl;
+					cout<<"d)SELECT."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='d')
@@ -836,11 +836,28 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}	
-					cout<<"4-¿Que funcionalidad en programación orientada a objetos?"<<endl;
-					cout<<"a)Pedir todos de usuario "<<endl;
-					cout<<"b)Ordenes programadas en las clases"<<endl;
-					cout<<"c)Seguridad del programa"<<endl;
-					cout<<"d)Todas las anteriores"<<endl;
+					cout<<"4-¿Qué comando se utiliza para eliminar datos de una tabla en SQL?"<<endl;
+					cout<<"a)REMOVE."<<endl;
+					cout<<"b)ERASE."<<endl;
+					cout<<"c)ELIMINATE."<<endl;
+					cout<<"d)DELETE."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='d')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}
+					cout<<"5-¿Cuál es la función de la cláusula WHERE en una consulta SQL?"<<endl;
+					cout<<"a)Ordenar los datos."<<endl;
+					cout<<"b)Filtrar los datos."<<endl;
+					cout<<"c)Agrupar los datos."<<endl;
+					cout<<"d)Seleccionar los datos."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='b')
@@ -853,28 +870,11 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}
-					cout<<"5-¿Datos = Atributos?"<<endl;
-					cout<<"a)Falso"<<endl;
-					cout<<"b)Verdadero"<<endl;
-					cout<<"c)no se "<<endl;
-					cout<<"d)ninguno"<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='b')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
-						}
-					cout<<"6-¿Para que nos sirve una clase en poo?"<<endl;
-					cout<<"a)Por si sola no nos sirve de nada"<<endl;
-					cout<<"b)Para definir un objeto "<<endl;
-					cout<<"c)Para aprender"<<endl;
-					cout<<"d)Ninguna"<<endl;
+					cout<<"6-¿Cuál es la función de la cláusula JOIN en una consulta SQL?"<<endl;
+					cout<<"a)Agregar datos de una tabla a otra."<<endl;
+					cout<<"b)Filtrar datos."<<endl;
+					cout<<"c)Ordenar datos."<<endl;
+					cout<<"d)Agregar una búsqueda."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='a')
@@ -887,28 +887,11 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}
-					cout<<"7-¿Que pilar del poo permite todo lo referente a que un objeto quede aislado dentro de este?"<<endl;
-					cout<<"a)Encapsulacion"<<endl;
-					cout<<"b)Polimorfismo "<<endl;
-					cout<<"c)Abstraccion"<<endl;
-					cout<<"d)Herencia"<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='a')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
-						}
-					cout<<"8- Polimorfismo se refiere a: "<<endl;
-					cout<<"a)Poder modificar algunos datos heredados"<<endl;
-					cout<<"b)Representacion de caracteristicas de entidades hacia el mundo exterior, pero ocultando la complejidad"<<endl;
-					cout<<"c)Varios objetos de diferentes clases, pero con una base común, se pueden usar de manera indistintal"<<endl;
-					cout<<"d)Todas las anteriores"<<endl;
+					cout<<"7-¿Qué comando se utiliza para actualizar datos en una tabla en SQL?"<<endl;
+					cout<<"a)MODIFY."<<endl;
+					cout<<"b)ALTER."<<endl;
+					cout<<"c)UPDATE."<<endl;
+					cout<<"d)REFRESH."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='c')
@@ -921,11 +904,11 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}
-					cout<<"9-¿Cual es el concepto verdadero de atributo?"<<endl;
-					cout<<"a)Consigue clasificar los tipos de datos (abstracciones) por variedad (ES-UN), acercando un poco más el mundo de la programación al modo de razonar humano, por ejemplo, diremos que Un perro ES_UN animal."<<endl;
-					cout<<"b)definen el comportamiento de un objeto: las acciones que puede realizar en función de los eventos que ocurran en su entorno y de su estado actu"<<endl;
-					cout<<"c)Es un elemento tangible (ocupa memoria) generado a partir de una definición de clase."<<endl;
-					cout<<"d)Se define como la capacidad de una entidad de referenciar distintos elementos en distintos instantes de tiempo."<<endl;
+					cout<<"8-¿Cuál es la función de la cláusula ORDER BY en una consulta SQL?"<<endl;
+					cout<<"a)Filtrar datos."<<endl;
+					cout<<"b)Ordenar datos."<<endl;
+					cout<<"c)Eliminar datos."<<endl;
+					cout<<"d)Requerir datos."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='b')
@@ -938,14 +921,31 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}
-					cout<<"10-¿cual es la herramientas que permite modelar relaciones entre diferentes entidades?"<<endl;
-					cout<<"a)Herencia"<<endl;
-					cout<<"b)Encapsulamiento"<<endl;
-					cout<<"c)Diagrama de clases"<<endl;
-					cout<<"d)Funciones"<<endl;
+					cout<<"9-¿Qué comando se utiliza para agregar datos a una tabla en SQL?"<<endl;
+					cout<<"a)ADD."<<endl;
+					cout<<"b)UPDATE."<<endl;
+					cout<<"c)ATTACH."<<endl;
+					cout<<"d)INSERT."<<endl;
 					cin>>respuesta;
 
-				    if(respuesta=='c')
+				    if(respuesta=='d')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}
+					cout<<"10-¿Qué comando se utiliza para crear una tabla en SQL?"<<endl;
+					cout<<"a)MAKE TABLE."<<endl;
+					cout<<"b)CREATE TABLE."<<endl;
+					cout<<"c)ADD TABLE."<<endl;
+					cout<<"d)BUILD TABLE."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
 						{
 					  		cout<<"la respuesta es correcta"<<endl;
 					  		contap=contap+1;
